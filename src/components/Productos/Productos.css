@@ -1,0 +1,24 @@
+.productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.producto {
+  width: 300px;
+  font-size: 150%;
+  padding: 20px;
+}
+
+.btnComprar {
+  padding: 15px;
+  font-size: 80%;
+  background-color: rgb(73, 153, 73);
+  border: none;
+  color: white;
+}
